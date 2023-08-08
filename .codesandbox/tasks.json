@@ -1,0 +1,12 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "WORKDIR /app COPY . /app ENTRYPOINT [\"./babyagi.py\"] EXPOSE 8080": {
+      "name": "WORKDIR /app COPY . /app ENTRYPOINT [\"./babyagi.py\"] EXPOSE 8080",
+      "command": "WORKDIR /app COPY . /app ENTRYPOINT [\"./babyagi.py\"] EXPOSE 8080"
+    }
+  }
+}
